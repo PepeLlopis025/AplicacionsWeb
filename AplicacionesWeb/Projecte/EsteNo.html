@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - El mundo del esquí</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>El mundo del esquí</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contáctanos</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="asunto">Asunto:</label><br>
+        <input type="text" id="asunto" name="asunto" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Ubicación</h2>
+      <p>Encuéntranos en el IES Dr. Simarro:</p>
+      <iframe 
+        src="https://www.google.com/maps?q=IES+Dr.+Simarro&output=embed" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </section>
+  </main>
+
+  <footer>
+    <blockquote>
+      “El esquí es la mejor manera de escapar del mundo sin salir de él.” — Anónimo
+    </blockquote>
+    <p>&copy; 2025 El mundo del esquí. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
